@@ -1,0 +1,5 @@
+<!--component/prueText/cmp.wxml-->
+<view class="prueText">
+   <text class="titleTop">{{textOne}}</text>
+   <text class="titleBottom">{{textTwo}}</text>
+</view>

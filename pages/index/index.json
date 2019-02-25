@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "bigImg_cmp":"/component/bigImg/cmp",
+    "prueText_cmp":"/component/prueText/cmp",
+    "imgText_cmp":"/component/imgText/cmp",
+    "mulImages_cmp":"/component/mulImages/cmp"
+  }
+}

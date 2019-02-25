@@ -1,0 +1,32 @@
+/* component/imgText/cmp.wxss */
+.imgText{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:250rpx;
+}
+.imgText .top{
+    height: 60%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.imgText .top .textOne{
+    width: 65%;
+    height: 100%;
+    font-size: 42rpx;
+    text-indent: 0.5em;
+    display: inline-block;
+    position: absolute;
+}
+.imgText .top .imgs{
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    right: 10rpx;
+}
+.imgText .textTwo{
+    font-size: 32rpx;
+    color: #aaa;
+    text-indent: 0.5em;
+}

@@ -1,0 +1,16 @@
+/* component/prueText/cmp.wxss */
+.prueText{
+    display: flex;
+    flex-direction: column;
+}
+.prueText .titleTop{
+    display: block;
+    font-size: 42rpx;
+    text-indent: 0.5em;
+}
+.prueText .titleBottom{
+    display: block;
+    font-size: 32rpx;
+    text-indent: 0.5em;
+    color: #aaa;
+}

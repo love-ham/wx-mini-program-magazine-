@@ -1,0 +1,8 @@
+<!--component/imgText/cmp.wxml-->
+<view class="imgText">
+   <view class="top">
+       <text class="textOne">{{textOne}}</text>
+       <image mode="widthFix" src="{{imgSrc}}" class="imgs"/>
+    </view> 
+    <text class="textTwo">{{textTwo}}</text>
+</view>

@@ -1,0 +1,8 @@
+<!--component/mulImages/cmp.wxml-->
+<view class="mulImages">
+    <view class="images">
+        <image class="image" wx:for="{{imgArr}}" src="{{item}}" wx:key="{{index}}" wx:if="{{index < 9}}" catch:tap="onPreImgs" data-imgIndex="{{index}}"/>
+        <view class="imgsNum" wx:if="{{imgArr.length > 9}}">{{imgArr.length - 9}}</view>
+    </view>
+    <text class="text">{{text}}</text>
+</view>

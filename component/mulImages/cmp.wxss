@@ -1,0 +1,36 @@
+/* component/mulImages/cmp.wxss */
+.mulImages{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mulImages .images{
+    position: relative;
+    width: 700rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mulImages .images .image{
+    width: 217rpx;
+    height: 217rpx;
+    margin-top: 24.5rpx;
+}
+.mulImages .images .imgsNum{
+    display: inline-block;
+    text-align: center;
+    line-height: 50rpx;
+    color: #aaa;
+    font-size: 32rpx;
+    height: 50rpx;
+    width: 50rpx;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    right: 83.5rpx;
+    bottom: 83.5rpx;
+}
+.mulImages .text{
+    text-indent: 0.5em;
+    font-size: 38rpx;
+
+}

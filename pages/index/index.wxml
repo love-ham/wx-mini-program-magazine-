@@ -1,0 +1,14 @@
+pages/index/index.wxml
+<bigImg_cmp 
+   imgSrc="http://img0.imgtn.bdimg.com/it/u=2034778689,3054558229&fm=26&gp=0.jpg" 
+   text="你放大接口返回的萨芬好看的所发生的黄飞鸿">
+</bigImg_cmp> -->
+<prueText 
+ textOne="fdajfadsfdasfads"
+ textTwo="dasfhadsfdasfdsafdsa"></prueText>
+<imgText 
+  imgSrc="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=990064752,2161715520&fm=27&gp=0.jpg"
+  textOne="电话费接电话福建省的解放军阿斯顿发大水发"
+  textTwo="东方大厦发货单上飞机是东方红大的神色发顺丰"></imgText>
+<mulImages_cmp class="" imgArr="{{imgArr}}" text="{{text}}"></mulImages_cmp>
+ 
